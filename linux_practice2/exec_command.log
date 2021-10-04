@@ -1,0 +1,300 @@
+  204  git status
+  205  git remote add origin https://github.com/yrkFukushima/server_lesson.git
+  206  git push origin master
+  207  git push origin master
+  208  git push origin master
+  209  git push origin master
+  210  git push origin master
+  211  exit
+  212  cd /root
+  213  cd server_lesson
+  214  ls
+  215  cd linux_practice1
+  216  cd public
+  217  l
+  218  ls
+  219  cd .
+  220  git status
+  221  git commit -m '修正'
+  222  gir push origin master
+  223  git push origin master
+  224  git push origin master
+  225  git push origin master
+  226  cd server_lesson
+  227  cd ..
+  228  cd ..
+  229  git status
+  230  git add . 
+  231  git commit -m '修正2'
+  232  git push origin master
+  233  git add linux_practice1
+  234  git add -A
+  235  git commit -m 'ファイルの削除'
+  236  git push origin master
+  237  git push origin master
+  238  vi .gitignore
+  239  ls -a
+  240  cd linux_practice2
+  241  ls -a
+  242  vi .gitignore
+  243  git add .
+  244  git status
+  245  ggit commit -m 'ignoreファイル編集'
+  246  git commit -m 'ignoreファイル編集�'
+  247  git remote add origin https://github.com/yrkFukushima/server_lesson.git
+  248  git push origin master
+  249  git push origin master
+  250  git push origin master
+  251  git branch -D server_lesson
+  252  rm -rf server_lesson
+  253  git stasus
+  254  git status
+  255  cd .
+  256  cd ..
+  257  cd ..
+  258  rm -r server_lesson
+  259  ls
+  260  ls
+  261  ls server?lesson
+  262  ls server_lesson
+  263  rm -r server_lesson
+  264  ls
+  265  cd /root
+  266  cd .
+  267  ls
+  268  ls /
+  269  cd /root
+  270  mkdir server_lesson && cd server_lesson
+  271  yum update -y && yum -y install git
+  272  git version
+  273  git init
+  274  touch first.txt
+  275  touch linux_practice1/public/index.php
+  276  mkdir linux_practice1
+  277  ls
+  278  cd linux_practice1
+  279  mkdir public
+  280  cd public
+  281  touch index.php
+  282  ls
+  283  git add .
+  284  git status
+  285  git commit -m 'practice1'
+  286  cp index.php index_bk.php
+  287  ls
+  288  git add .
+  289  git commit -m 'practice1-2'
+  290  cd .
+  291  cd ..
+  292  cp -r public tmp
+  293  ls
+  294  ls tmp
+  295  git add .
+  296  git commit -m 'practice1-3'
+  297  cd tmp
+  298  rm index_bk.php
+  299  ls
+  300  git add .
+  301  git add -a
+  302  git add -A
+  303  git status
+  304  git commit -m 'practice1-4'
+  305  cd ..
+  306  cd ..
+  307  vi README.md
+  308  git add . 
+  309  git commit -m practice1-5'
+  310  exit
+  311  git commit -m 'practice1-5'
+  312  mkdir linux_practice2
+  313  ls
+  314  cd linux_practicew
+  315  cd linux_practic2w
+  316  cd linux_practic2
+  317  cd linux_practice2
+  318  mkdir documents
+  319  cd documents
+  320  touch gizumo{01..50}.md
+  321  ls
+  322  git add .
+  323  git commit -m 'practice2-1'
+  324  cd ..
+  325  mkdir trash
+  326  cd trash
+  327  cd ..
+  328  cd documents
+  329  mv gizumo{20..40}.md trash
+  330  cd ..
+  331  ls
+  332  cd documents
+  333  cd ..
+  334  mv documents/gizumo{20..40}.md trash
+  335  ls
+  336  ls trash
+  337  git add .
+  338  git commit -m 'practice2-2'
+  339  mkdir .gitignore
+  340  vi .gitignore
+  341  rm .gitignore
+  342  y
+  343  rm -r .gitignore
+  344  touch .gitignore
+  345  vi ,gitignore
+  346  ls -a
+  347  rm ,gitignore
+  348  vi .gitignore
+  349  vi .gitignore
+  350  history 300 > exec_command.log
+  351  ls
+  352  cat exec_command.log
+  353  git add .
+  354  git status
+  355  git rm -r --cached
+  356  git status
+  357  vi .gitignore
+  358  ls
+  359  ls trash
+  360  git add . 
+  361  git status
+  362  git remote add origin https://github.com/yrkFukushima/server_lesson.git
+  363  git rmeote -v
+  364  git remote -v
+  365  git commit -m 'practice2-5'
+  366  git push origin master
+  367  vi .gitignore
+  368  cd ..
+  369  cd ..
+  370  rm server_lesson/linux_practice2/trash/gizumo{20..29}.md root
+  371  ls
+  372  ls server_lesson
+  373  ls linux_practice2
+  374  ls linux_practice2
+  375  cd server_lesson
+  376  ls linux_practice2
+  377  ls trash
+  378  cd linux_practice2
+  379  ls trash
+  380  cd ..
+  381  cd ..
+  382  ls
+  383  cd ..
+  384  ls
+  385  /root
+  386  cd /root
+  387  ls
+  388  git add .
+  389  cd server_lesson
+  390  git add .
+  391  git commit -m'ptactice2-4修正'
+  392  vi .gitignore
+  393  ls
+  394  ls -a
+  395  rv .gitignore
+  396  rm .gitignore
+  397  cd linux_practicew
+  398  cd linux_practice2
+  399  ls -a
+  400  vi .gitignore
+  401  cd trash
+  402  ls
+  403  touch gizumo{20..29}.md
+  404  ls
+  405  cd ..
+  406  vi .gitignore
+  407  git add .
+  408  git status
+  409  git commit -m 'practice2-4'
+  410  git push orisin master
+  411  git push origin master
+  412  git add -A
+  413   git status
+  414  git commit -m　'修正'
+  415  git push
+  416  git push origin master
+  417  exit
+  418  cd /root
+  419  ls
+  420  cd server_lesson
+  421  git status
+  422  git status --ignored
+  423  ls
+  424  cd linux_practice2
+  425  ls
+  426  vi .gitignore
+  427  git status --ignored
+  428  cd ..
+  429  cd ..
+  430  ls
+  431  rm -f server_lesson
+  432  rm -f -r server_lesson
+  433  ls
+  434  cd /root
+  435  mkdir server_lesson && cd server_lesson
+  436  yum update -y && yum -y install git
+  437  git version
+  438  git init
+  439  touch first.txt
+  440  ls
+  441  git status
+  442  git add
+  443  git add .
+  444  git commit -m 'first-commit'
+  445  mkdir -p  linux_practice1/public
+  446  ls
+  447  cd linux_practice1/public
+  448  touch index.php
+  449  ls
+  450  git add .
+  451  git commit -m 'practice1-1'
+  452  cp index.php index_bk.php
+  453  ls
+  454  cd ..
+  455  cp -r  public tmp
+  456  ls
+  457  ls tmp
+  458  cd tmp
+  459  rm index_bk.php
+  460  cd ..
+  461  cd ..
+  462  vi README.md
+  463   vi ~/.vimrc
+  464  exit
+  465  ls
+  466  cd /root
+  467  cd server_lesson
+  468  ls
+  469  git status
+  470  vi README.md
+  471  git add .
+  472  git commit -m 'practice1'
+  473  mkgir -p linux_practice2/documents
+  474  mkdir -p linux_practice2/documents
+  475  ls
+  476  cd linux_practice2/documents
+  477  touch gizumo{01..50}.md
+  478  ls
+  479  cd ..
+  480  mkdir trash
+  481  cd trash
+  482  cd ..
+  483  cd documents
+  484  mv gizumo{20..40}.md linux_practice2/trash
+  485  cd ..
+  486  mv gizumo{20..40}.md linux_practice2/trash
+  487  mv gizumo{20..40}.md trash
+  488  ls
+  489  ls trash
+  490  mv gizumo{20..40}.md trash
+  491  ls
+  492  rm trash
+  493  cd documents
+  494  mv gizumo{20..40}.md linux_practice2/trash
+  495  cd .
+  496  cd ..
+  497   mv documents/gizumo{20..40}.md trash
+  498  ls
+  499  ls trash
+  500  touch .gitignore
+  501  vi .gitignore
+  502  histry 300 > exec_command.log
+  503  history 300 > exec_command.log
